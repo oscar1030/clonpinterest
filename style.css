@@ -1,0 +1,263 @@
+
+#navbar-pinterest{
+    width: 98vw;
+    height: 60px;
+    padding: 15px 16px 4px 1px;
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    top: 0px;
+    background-color: white;
+    z-index: 1;
+}
+#navbar-pinterest ul{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+#navbar-pinterest ul:hover{
+    cursor: pointer;
+}
+#navbar-pinterest ul li{
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    padding: 0px 16px;
+}
+#navbar-pinterest ul li .iconLI{
+    padding:0px;
+}
+.iConpinterest{
+    height: 48px;
+    width: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.iConpinterest img{
+    height: 27px;
+    width: 27px;
+}
+.iConpinterest:hover{
+    background-color: lightgray;
+    border-radius: 50px;
+}
+.Home{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 47px;
+    border-radius: 25px;
+}
+.Home a {
+    color: white!important;
+}
+.listDown li{
+    display: none;
+}
+.lista:hover .listDown li{
+    display: flex;
+   
+}
+
+   
+.lista:hover .listDown li{
+    display: flex;
+    background-color: white;
+    width: 125px;
+    margin: 1.5px;
+    align-self: flex-start;
+    border-radius: 10px;
+}
+.lista .listDown li:hover{
+    background-color: white;
+}
+.lista .listDown li a{
+    padding: 5px 0px;
+}
+.lista:hover .listDown{
+    margin-top: 2px;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    width: 160px!important;
+    padding: 10px 5px;
+    border-radius: 10px;
+}
+.fieldinput svg{
+    padding: 0px 3px 0px 15px;
+    height: 24px;
+    width: 24px;
+ }
+ .fieldinput {
+    background-color: lightgray;
+    height: 48px;
+    border-radius: 24px;
+    width: 61vw;
+    display: flex;
+    align-items: center;
+ }
+
+ .LIfieldinput{
+    padding: 0px 8px!important;
+ }
+ .finder{
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    height: 100%;
+    outline: none;
+    padding: 0px;
+    width: 93.5%;
+ }
+ .fieldinput:focus-within{
+    border: 3px solid lightskyblue;
+ }
+ .fieldinput:focus-within> svg{
+    display: none;   
+ }
+.micons{
+    padding: 0px!important;
+}
+#notifications, #message, #profile-img{
+    height: 47px;
+    width: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#notifications img, #message img, #profile-img img {
+    height: 24px;
+    width: 24px;  
+}
+svg.flecha{
+    padding: 0px;
+    height: 15px;
+    width: 15px;
+}
+main{
+    margin-top: 80px;
+    width: 100%;
+    column-count: 7;
+}
+.card-image button{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 500;
+    visibility: hidden;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#profile-img img{
+    border-radius: 25px;
+}
+
+.card-image button#Save:hover{
+    background-color: rgb(190, 39, 39);
+    cursor: pointer;
+
+}
+.card-image button#Save{
+display: flex;
+right: 17px;
+top: 20px;
+color: white;
+background-color: red;
+position: absolute;
+padding: 11px 15px;
+border-radius: 25px;
+border: none;
+}
+
+.card-image button#More_Options:hover{
+    background-color: gray;
+    cursor: pointer;
+
+}
+.card-image button#More_Options{
+display: flex;
+right: 17px;
+bottom: 20px;
+color: white;
+background-color: rgb(199, 195, 195);
+position: absolute;
+padding: 8px;
+border-radius: 25px;
+border: none;
+width: 33px;
+height: 33px;
+}
+.card-image button#More_Options svg{
+    width: 20px;
+    width: 20px;
+}
+
+.card-image button#Download:hover{
+    background-color: gray;
+    cursor: pointer;
+
+}
+.card-image button#Download{
+display: flex;
+right: 60px;
+bottom: 20px;
+color: white;
+background-color: rgb(199, 195, 195);
+position: absolute;
+padding: 8px;
+border-radius: 25px;
+border: none;
+width: 33px;
+height: 33px;
+}
+.card-image button#More_Options svg{
+    width: 20px;
+    width: 20px;
+}
+.card-image:hover{
+    cursor: zoom-in;
+    filter: brightness(61%);
+}
+.card-image:hover>button{
+    visibility: visible;
+}
+.card-image img{
+    width: 250px;
+    margin: 5px;
+    border-radius: 20px;
+}
+.card-image{
+    width: 250px;
+    display: flex;
+    column-count: 5;
+    flex-wrap: wrap;
+    position: relative;
+    overflow: hidden;
+    margin: 4px;
+}
+footer{
+    background-color: white;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+footer:hover{
+    background-color:lightgrey ;
+    cursor: pointer;
+}
